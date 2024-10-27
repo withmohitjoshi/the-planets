@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+}
+
+.heading {
+  @apply h-full text-white text-[3rem] md:text-[6rem] font-[Aboreto] font-normal tracking-tighter;
+}

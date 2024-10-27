@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="w-full h-screen overflow-hidden">
+      <div class="w-full h-screen absolute top-0 left-0 z-10">
+        <div class="absolute top-[15%] left-1/2 -translate-x-1/2 text-center">
+          <div class="w-full h-[4rem] md:h-[7rem] overflow-hidden">
+            <h1 class="heading">Earth</h1>
+            <h1 class="heading">Venus</h1>
+            <h1 class="heading">Volcanic</h1>
+            <h1 class="heading">Csilla</h1>
+          </div>
+          <p class="text-white text-xs md:text-lg font-[Lexend Deca] mt-2">
+            Welcome to the 3D world of the planets
+          </p>
+          <div
+            class="w-full h-[1px] bg-gradient-to-r from-transparent via-white to-transparent mt-2"
+          ></div>
+        </div>
+      </div>
+      <canvas id="canvas"></canvas>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
